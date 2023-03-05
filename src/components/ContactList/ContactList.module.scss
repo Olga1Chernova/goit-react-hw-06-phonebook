@@ -1,0 +1,22 @@
+.contacts__item {
+    font-size: 20px;
+    margin-bottom: 20px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.contacts__button {
+    display: inline-block;
+    cursor: pointer;
+
+    width: 60px;
+    height: 24px;
+    margin-left: 16px;
+    border-color: rgb(3, 58, 58);
+
+    &:hover {
+        border-color: red;
+    }
+}

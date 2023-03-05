@@ -1,0 +1,20 @@
+.contacts__wrapper {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.contacts__label {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contacts__input {
+    border: 1px solid darkblue;
+    border-radius: 20px;
+    width: 240px;
+    height: 40px;
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 5px 15px 5px;
+    margin-top: 20px;
+}
